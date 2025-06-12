@@ -1,0 +1,78 @@
+/* Estilo general */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Nav Links */
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #0056b3;
+  }
+  
+  /* Main */
+  .main-content {
+    padding: 2rem;
+    min-height: 70vh;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+  }
+  
+  /* Navbar (marcas) */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  nav li {
+    background-color: #e9ecef;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
