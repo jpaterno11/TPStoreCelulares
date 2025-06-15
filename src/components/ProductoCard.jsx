@@ -1,5 +1,3 @@
-import '../styles/ProductoCard.css'
-// src/components/CelularCard.jsx
 import { Card, Button } from 'react-bootstrap';
 
 function ProductoCard({ celular, imagenSrc }) {
