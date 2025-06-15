@@ -1,0 +1,10 @@
+.producto-detalle-container {
+  position: relative;
+  box-shadow: 0 8px 30px rgba(26, 115, 232, 0.4);
+}
+.flechita {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+}

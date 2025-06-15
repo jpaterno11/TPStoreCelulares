@@ -1,0 +1,19 @@
+.quienes-somos-bg {
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.quienes-somos-bg h1 {
+  color: #fff;
+}
+
+.quienes-somos-bg p {
+  font-size: 1.15rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.lead {
+  font-weight: 500;
+}

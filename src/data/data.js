@@ -1,11 +1,11 @@
 export const marcas = [
-    { id: 1, nombre: 'Apple' },
-    { id: 2, nombre: 'Samsung' },
-    { id: 3, nombre: 'Xiaomi' },
-    { id: 4, nombre: 'Motorola' }
+    { id: 1, nombre: 'Apple', logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg' },
+    { id: 2, nombre: 'Samsung', logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/samsung.svg' },
+    { id: 3, nombre: 'Xiaomi', logo: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg' },
+    { id: 4, nombre: 'Motorola', logo: 'https://cdn.freebiesupply.com/logos/large/2x/motorola-2-logo-svg-vector.svg'}
   ];
   
-  export const celulares = [
+export const celulares = [
     {
       id: 1,
       nombre: 'iPhone 14 Pro',
@@ -13,8 +13,8 @@ export const marcas = [
       precio: 1299,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphone14pro-1.jpg',
-        'https://example.com/iphone14pro-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-1.jpg',
+        'https://cdn.freebiesupply.com/images/large/1x/iphone-14-free-mockups-dynamic-island-g67.jpg',
         'https://example.com/iphone14pro-3.jpg'
       ]
     },
@@ -25,8 +25,8 @@ export const marcas = [
       precio: 999,
       marcaId: 2,
       fotos: [
-        'https://example.com/galaxys23-1.jpg',
-        'https://example.com/galaxys23-2.jpg',
+        'https://m.media-amazon.com/images/I/71rjXl9tmJL._AC_SL1500_.jpg',
+        'https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/95cf4fca08c872104a62c90d7aebfe5ab09ca7db',
         'https://example.com/galaxys23-3.jpg'
       ]
     },
@@ -37,8 +37,8 @@ export const marcas = [
       precio: 899,
       marcaId: 3,
       fotos: [
-        'https://example.com/xiaomi13pro-1.jpg',
-        'https://example.com/xiaomi13pro-2.jpg',
+        'https://acdn-us.mitiendanube.com/stores/001/097/819/products/note-13-pro-5g-6d8f089e2096d8693617081353760594-1024-1024.jpg',
+        'https://mockupden.com/wp-content/uploads/2021/05/Phone-mockup.jpg',
         'https://example.com/xiaomi13pro-3.jpg'
       ]
     },
@@ -49,8 +49,8 @@ export const marcas = [
       precio: 699,
       marcaId: 4,
       fotos: [
-        'https://example.com/edge40-1.jpg',
-        'https://example.com/edge40-2.jpg',
+        'https://www.clarin.com/2023/05/18/AcuxQ1-zC_2000x1500__1.jpg',
+        'https://armobileskin.com/wp-content/uploads/2023/10/Moto-Edge-40-5G.webp',
         'https://example.com/edge40-3.jpg'
       ]
     },
@@ -61,9 +61,9 @@ export const marcas = [
       precio: 899,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphone13-1.jpg',
-        'https://example.com/iphone13-2.jpg',
-        'https://example.com/iphone13-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-13-3.jpg'
       ]
     },
     {
@@ -73,9 +73,9 @@ export const marcas = [
       precio: 499,
       marcaId: 2,
       fotos: [
-        'https://example.com/a54-1.jpg',
-        'https://example.com/a54-2.jpg',
-        'https://example.com/a54-3.jpg'
+        'https://www.rodo.com.ar/media/catalog/product/cache/855090a5c67e45b26c9e0d345e7592dc/g/a/galaxy_a54_5g_256gb_blanco_1_1.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrvl6iNfuNfKZq_jA6gw5Js-RyEmmbezQ2yQ&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvUaFloqVuGATECg0Omt3BeYlauGHS9hLsqg&s'
       ]
     },
     {
@@ -85,9 +85,9 @@ export const marcas = [
       precio: 249,
       marcaId: 3,
       fotos: [
-        'https://example.com/redminote12-1.jpg',
-        'https://example.com/redminote12-2.jpg',
-        'https://example.com/redminote12-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12-5g-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12-5g-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note-12-5g-3.jpg'
       ]
     },
     {
@@ -97,9 +97,9 @@ export const marcas = [
       precio: 349,
       marcaId: 4,
       fotos: [
-        'https://example.com/motog73-1.jpg',
-        'https://example.com/motog73-2.jpg',
-        'https://example.com/motog73-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g73-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g73-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-moto-g73-3.jpg'
       ]
     },
     {
@@ -109,9 +109,9 @@ export const marcas = [
       precio: 429,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphonese3-1.jpg',
-        'https://example.com/iphonese3-2.jpg',
-        'https://example.com/iphonese3-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-se-2022-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-se-2022-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-se-2022-3.jpg'
       ]
     },
     {
@@ -121,9 +121,9 @@ export const marcas = [
       precio: 1199,
       marcaId: 2,
       fotos: [
-        'https://example.com/zflip5-1.jpg',
-        'https://example.com/zflip5-2.jpg',
-        'https://example.com/zflip5-3.jpg'
+        'https://http2.mlstatic.com/D_908327-MLA85777773725_062025-O.jpg',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReXHv4jMtZsuz4ZzE216rAx955UPFRFB3JFw&s',
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwxCzVFlYBX-B6BGU8IEq5_Lj0I0eg3DHTEA&s'
       ]
     },
     {
@@ -133,9 +133,9 @@ export const marcas = [
       precio: 379,
       marcaId: 3,
       fotos: [
-        'https://example.com/pocof5-1.jpg',
-        'https://example.com/pocof5-2.jpg',
-        'https://example.com/pocof5-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-f5-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-f5-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-poco-f5-3.jpg'
       ]
     },
     {
@@ -145,9 +145,9 @@ export const marcas = [
       precio: 1099,
       marcaId: 4,
       fotos: [
-        'https://example.com/razr40ultra-1.jpg',
-        'https://example.com/razr40ultra-2.jpg',
-        'https://example.com/razr40ultra-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-40-ultra-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-40-ultra-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/motorola/motorola-razr-40-ultra-3.jpg'
       ]
     },
     {
@@ -157,9 +157,9 @@ export const marcas = [
       precio: 1099,
       marcaId: 1,
       fotos: [
-        'https://example.com/iphone14-1.jpg',
-        'https://example.com/iphone14-2.jpg',
-        'https://example.com/iphone14-3.jpg'
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-1.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-2.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-3.jpg'
       ]
     },
     {
@@ -169,10 +169,33 @@ export const marcas = [
       precio: 199,
       marcaId: 2,
       fotos: [
-        'https://example.com/m14-1.jpg',
-        'https://example.com/m14-2.jpg',
-        'https://example.com/m14-3.jpg'
+        'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC2E4oCDXdPdQbO9Qxwo5_eYVcvG4feiXtQg&s',
+        'https://s1.elespanol.com/2023/03/08/elandroidelibre/moviles-android/746935406_231470222_1706x1279.jpg',
+        'https://m.media-amazon.com/images/I/81ZSn2rk9WL._AC_UF894,1000_QL80_.jpg'
       ]
-    }
+    },
+    {
+      id: 15,
+      nombre: 'Xiaomi 14 Ultra',
+      descripcion: 'Pantalla AMOLED LTPO 6.73", Snapdragon 8 Gen 3, cámara cuádruple Leica',
+      precio: 1299,
+      marcaId: 3,
+      fotos: [
+    'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-1.jpg',
+    'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-2.jpg',
+    'https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-14-ultra-3.jpg'
+      ]
+    },
+    {
+    id: 16,
+    nombre: 'Motorola Moto Edge 30 Neo',
+    descripcion: 'Pantalla pOLED 6.28", Snapdragon 695, carga rápida 68W',
+    precio: 449,
+    marcaId: 4,
+    fotos: [
+      'https://www.casalorenzo.com.ar/wp-content/uploads/2023/10/158478-800-auto1.png',
+      'https://images.fravega.com/f1000/7ca3bcd2158e82a9fd4d838667936bb3.jpg',
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROhzwyQyC7yEyjqpYVL_9SbMdePccw4iIQLQ&s'
+    ]
+  }
   ];
-  

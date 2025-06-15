@@ -6,16 +6,15 @@ import '../styles/MainLayout.css'
 function MainLayout() {
   return (
     <>
-    <header className="header">
-        <div className="logo">
-            📱 MiLogo
-        </div>
-        <Navbar/>
-    </header>
-    <main>
-      <Outlet/>
-    </main>
-    <Footer/>
+      <header>
+        <Navbar />
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   )
 }

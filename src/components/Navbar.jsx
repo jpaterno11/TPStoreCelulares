@@ -1,37 +1,40 @@
 import { marcas } from '../data/data.js';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
 function NavbarComponente() {
   return (
-    <>
-    <Navbar expand="lg" className="bg-body-tertiary mb-4">
+    <Navbar bg="dark" variant="dark" expand="lg" className="mb-4">
       <Container>
-        <Navbar.Brand as={Link} to="/">📱 MiTienda</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">NovaTech Mobile</Navbar.Brand>
         <Navbar.Toggle aria-controls="main-navbar" />
         <Navbar.Collapse id="main-navbar">
-          <Nav className="me-auto">
+          <Nav className="ms-auto d-flex align-items-center gap-3">
+            <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/quienessomos">Quienes Somos</Nav.Link>
             <NavDropdown title="Productos" id="productos-dropdown">
-                {marcas.map((marca) => (
-                <NavDropdown.Item  key={marca.id} as={Link} to="/productos?marca=apple">{marca.nombre}</NavDropdown.Item> ))}
-              <NavDropdown.Item as={Link} to="/productos?marca=apple">Apple</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/productos?marca=samsung">Samsung</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/productos?marca=xiaomi">Xiaomi</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/productos?marca=motorola">Motorola</NavDropdown.Item>
+              <NavDropdown.Item
+                key={0}
+                as={Link}
+                to={`/productos`}
+              >
+                Ver todos
+              </NavDropdown.Item>
+              {marcas.map((marca) => (
+                <NavDropdown.Item
+                  key={marca.id}
+                  as={Link}
+                  to={`/productos/${marca.id}`}
+                >
+                  {marca.nombre}
+                </NavDropdown.Item>
+              ))}
             </NavDropdown>
             <Nav.Link as={Link} to="/contacto">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <ul>
-      
-    </ul>
-    </>
   );
 }
 

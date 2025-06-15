@@ -1,10 +1,10 @@
+import '../styles/Footer.css'
+
 function Footer() {
   return (
-    <>
-      <footer>
-        <p>&copy; 2025 Mi Tienda. Todos los derechos reservados.</p>
-      </footer>
-    </>
+    <footer className="footer-dark bg-dark">
+      <p>NovaTech Mobile &copy;. Todos los derechos reservados.</p>
+    </footer>
   )
 }
 
