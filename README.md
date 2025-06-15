@@ -1,13 +1,32 @@
-# React + Vite
+# Tp Store de celulares
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+En este codigo hemos desarrollado una "tienda de celulares" ficticia nombrada NovaTech Mobile, donde se venden 16 dispositivos de 4 marcas diferentes.
 
-Currently, two official plugins are available:
+## Nuestra forma de pensarlo.
+- Página de inicio con mensaje de bienvenida y presentación de la tienda  
+- Visualización de productos destacados con imágenes, descripciones y precios  
+- Listado de marcas con sus logos y enlaces a páginas de productos por marca  
+- Páginas de detalle de productos con información ampliada  
+- Diseño responsivo utilizando Bootstrap y componentes de React-Bootstrap  
+- Animaciones y transiciones fluidas gracias a Framer Motion  
+- Navegación fluida mediante enrutamiento del lado del cliente con React Router  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- React  
+- Vite
+- React-Bootstrap y Bootstrap 5 para componentes de UI y estilos  
+- Framer Motion para animaciones  
+- React Router DOM para navegación  
+- React Icons para iconografía  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# TPStoreCelulares" 
+## Estructura del Proyecto
+
+- `src/` - Carpeta del código fuente  
+  - `pages/` - Componentes React para las páginas principales (Inicio, Contacto, Productos, etc.)  
+  - `components/` - Componentes reutilizables de UI (Navbar, Footer, ProductoCard)  
+  - `data/` - Datos estáticos (información de productos y marcas)  
+  - `layouts/` - Componentes de estructura general para las páginas  
+  - `styles/` - Hojas de estilo CSS para páginas y componentes  
+
+---
