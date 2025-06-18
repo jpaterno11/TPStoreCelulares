@@ -2,7 +2,7 @@ export const marcas = [
     { id: 1, nombre: 'Apple', logo: 'https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg' },
     { id: 2, nombre: 'Samsung', logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/samsung.svg' },
     { id: 3, nombre: 'Xiaomi', logo: 'https://upload.wikimedia.org/wikipedia/commons/2/29/Xiaomi_logo.svg' },
-    { id: 4, nombre: 'Motorola', logo: 'https://cdn.freebiesupply.com/logos/large/2x/motorola-2-logo-svg-vector.svg'}
+    { id: 4, nombre: 'Motorola', logo: 'https://static.vecteezy.com/system/resources/previews/020/927/144/non_2x/motorola-brand-logo-phone-symbol-with-name-black-design-usa-mobile-illustration-free-vector.jpg'}
   ];
   
 export const celulares = [
@@ -13,8 +13,8 @@ export const celulares = [
       precio: 1299,
       marcaId: 1,
       fotos: [
-        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-1.jpg',
         'https://cdn.freebiesupply.com/images/large/1x/iphone-14-free-mockups-dynamic-island-g67.jpg',
+        'https://fdn2.gsmarena.com/vv/pics/apple/apple-iphone-14-pro-1.jpg',
         'https://example.com/iphone14pro-3.jpg'
       ]
     },

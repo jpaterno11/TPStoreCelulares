@@ -17,7 +17,6 @@ export default function Contacto() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Acá podés agregar lógica para enviar el formulario
   };
 
   return (
