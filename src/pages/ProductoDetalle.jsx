@@ -81,7 +81,8 @@ export default function ProductoDetalle() {
           <Button
             variant="primary"
             className="w-100 py-2 fw-semibold"
-            onClick={() => alert('Función de compra no implementada')}
+            onClick={() => alert('Compra completada')}
+            href='/productos'
           >
             Comprar
           </Button>

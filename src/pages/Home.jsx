@@ -1,4 +1,5 @@
 import { Container, Row, Col, Button, Card } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import { marcas, celulares } from '../data/data.js';
 import '../styles/Home.css';
 import { motion } from 'framer-motion';
@@ -35,7 +36,7 @@ function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
             >
-              <Button href="/productos" variant="primary" size="lg" className="mt-3 button">
+              <Button as={Link} to="/productos" variant="primary" size="lg" className="mt-3 button">
                 Ver Productos
               </Button>
             </motion.div>
@@ -78,7 +79,7 @@ function Home() {
                       {producto.descripcion}
                     </Card.Text>
                     <h5 className="text-primary">$ {producto.precio}</h5>
-                    <Button href={`/productodetalle/${producto.id}`} variant="outline-primary" className="mt-3 button">
+                    <Button as={Link} to={`/productodetalle/${producto.id}`} variant="outline-primary" className="mt-3 button">
                       Ver más
                     </Button>
                   </Card.Body>
