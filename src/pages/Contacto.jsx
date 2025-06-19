@@ -83,8 +83,8 @@ export default function Contacto() {
 
         <p className="mb-2">
           Email:{' '}
-          <a href="mailto:contacto@nombredetuempresa.com" className="text-primary fw-semibold">
-            contacto@nombredetuempresa.com
+          <a href="mailto:NovaTechMobile@gmail.com" className="text-primary fw-semibold">
+            NovaTechMobile@gmail.com
           </a>
         </p>
         <p className="mb-3">
